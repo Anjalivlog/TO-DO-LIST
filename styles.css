@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+}
+
+.add-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-item input,
+.add-item select {
+    flex: 1;
+    border: 2px solid black;
+    margin-right: 10px;
+    padding: 5px 15px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.add-item button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    margin-bottom: 10px;
+}
+
+.task-list {
+    /* border: 1px solid black; */
+    padding: 10px 0;
+    
+}
+
+.task {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/* .task1 {
+    border: 2px solid red;
+} */
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
